@@ -2,12 +2,11 @@ node_modules/
 .env
 .env.local
 .env.*.local
-*.log
 npm-debug.log*
-.DS_Store
+*.log
 dist/
 build/
 .vscode/
 .idea/
-*.swp
-*.swo
+.DS_Store
+coverage/

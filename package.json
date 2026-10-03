@@ -1,0 +1,33 @@
+{
+  "name": "mai-bot",
+  "version": "1.0.0",
+  "description": "MAi-Bot AI assistant server and Discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai",
+    "bot",
+    "discord",
+    "express",
+    "chatbot"
+  ],
+  "author": "yahyaalagha188-sketch",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.0",
+    "openai": "^4.55.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

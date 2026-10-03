@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "src/index.js"
+    }
+  ],
+  "env": {
+    "OPENAI_API_KEY": "@OPENAI_API_KEY",
+    "DISCORD_TOKEN": "@DISCORD_TOKEN",
+    "AI_MODEL": "gpt-4o-mini",
+    "NODE_ENV": "production"
+  }
+}
